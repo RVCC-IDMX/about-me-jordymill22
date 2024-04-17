@@ -135,3 +135,7 @@ columns: 20rem;
         display: block;
     }
 }
+/*Contact Form*/
+#formElements {
+    display: grid;
+}
