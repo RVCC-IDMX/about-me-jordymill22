@@ -109,26 +109,31 @@
       </div>
     </article>
   </main>
-<section id="Contactform" name="Contactform" 
-method="post" data-netlify="true">
-<fieldset>
-  <legend>Contact Form</legend>
-<div id="formElements">
-  <label for="name">Name (required)</label> 
-  <input type="text" id="name" name="name" placeholder="Name" required>
 
-  <label for="email">Email (required)</label>
-  <input type="email" id="email" name="email" required>
+  <section id = "Contact">
+    <h2>Contact Us:</h2>
+  <form name="Contactform" name="Contactform" 
+   method="post" netlify>
+
+  <fieldset>
+    <legend>Contact Form</legend>
+
+  <div id="formElements">
+    <label for="name">Name (required)</label> 
+    <input type="text" id="name" name="name" placeholder="Name" required>
+
+   <label for="email">Email (required)</label>
+    <input type="email" id="email" name="email" required>
   
-  <label for="phone">Phone (optional)</label>
-  <input type="tel" id="phone" name="phone" required>
+    <label for="phone">Phone (optional)</label>
+    <input type="tel" id="phone" name="phone" required>
 
-  <label for="phonetype">Phone type (optional)</label>
-  <select id="phonetype" name="phonetype">
-     <option value = "" selected>Select Phone type</option>
-     <option value ="Mobile">Mobile</option>
-     <option value ="Work">Work</option>
-     <option value ="Home">Home</option>
+   <label for="phonetype">Phone type (optional)</label>
+    <select id="phonetype" name="phonetype">
+       <option value = "" selected>Select Phone type</option>
+       <option value ="Mobile">Mobile</option>
+      <option value ="Work">Work</option>
+       <option value ="Home">Home</option>
 
   </select>
 
@@ -156,7 +161,7 @@ method="post" data-netlify="true">
 </fieldset>
 
 <button type="submit">Send</button>
-</div>
+</div> </form>
 
 </fieldset>
 
