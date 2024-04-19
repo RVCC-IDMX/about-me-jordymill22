@@ -138,4 +138,48 @@ columns: 20rem;
 /*Contact Form*/
 #formElements {
     display: grid;
+    row-gap: .5em;
+}
+
+#contact{
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+fieldset{
+    border: 3px solid rgb(0, 89, 255);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 2rem;
+    background-color: rgb(158, 15, 41);
+}
+legend{
+    background-color: rgb(0, 89, 255);
+    color: rgb(238, 235, 213);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+#contact ul{
+    list-style: none;
+    padding:0px;
+}
+
+#contact li{
+    margin: .5px;
+}
+
+#button {
+    background-color: rgb(158, 15, 41);
+    color: aliceblue;
+    border: 3px solid rgb(0, 89, 255);
+    max-width: 600px;
+    width:50%;
+    justify-self: center;
 }
