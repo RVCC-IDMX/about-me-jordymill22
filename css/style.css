@@ -33,12 +33,11 @@ header {
 #bio{
     text-align: center;
     font-size: 1.2em;
+    color: #61C4EB;
 }
 /*Hobbies */
-#hobbies ul li:nth-child(odd) {
-    color:rgb(214, 88, 88);
-}
 #hobbies {
+ color:#61C4EB;
 display: flex; 
 flex-direction: column; 
 align-items: center;
