@@ -3,7 +3,10 @@ body {
     background-color:#7B2010;
     COLOR: #ead19f;
 }
-
+#logo-container{
+    margin-right: 10px;
+    display: flex;
+}
 h1,h2,h3,h4,h5,h6 {
     font-family:"Kdam Thmor Pro", sans-serif;
     font-size: 40pt;
@@ -11,6 +14,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
     font: size 40pt;
+    margin-left: 15px
 }
 h2 {
     margin: .1rem;
@@ -35,11 +39,13 @@ header {
     font-size: 1.2em;
     color: #61C4EB;
 }
+#BioPic{
+        display: flex;
+        justify-content: center;
+    }
 /*Hobbies */
 #hobbies {
- color:#61C4EB;
-display: flex; 
-flex-direction: column; 
+ color:#61C4EB; 
 align-items: center;
 font-size: 1.3em;
 }
