@@ -21,6 +21,10 @@ h2 {
 }
 header {
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 /*Hero Section */
 #hero, footer {
@@ -40,14 +44,17 @@ header {
     color: #61C4EB;
 }
 #BioPic{
-        display: flex;
-        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: block;
     }
 /*Hobbies */
 #hobbies {
  color:#61C4EB; 
 align-items: center;
 font-size: 1.3em;
+line-height: 1.7;
 }
 
 /*Gallery */

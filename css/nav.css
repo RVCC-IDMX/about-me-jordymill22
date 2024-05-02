@@ -27,8 +27,29 @@ main{
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
-
-
+.nav{
+    border-bottom: 1px solid;
+}
+.nav__toggle{
+    position: absolute;
+cursor: pointer;
+margin: 6.5rem 2rem;
+align-items: center;
+left: 65%;
+height: auto;
+width: 30%;
+}
+.menu-container{
+    width: 30%;
+    fill: gray;
+    display: flex;
+}
+.nav__checkbox{
+    display: none;
+}
+.nav__checkbox:checked~.navbar-links li{
+display: block;
+} 
 /* logo */
 .logo{
     display: flex;
@@ -46,8 +67,8 @@ main{
 /* navigation list */
 .navbar-links li{
     list-style: none;
-    display: block;
     padding: 0.25em 0;
+    display: none;
 }
 
 /*  
@@ -82,7 +103,7 @@ min-width set to width of nav elements
 such that no text wraps 
 */
 
-@media screen and (min-width:60rem) {
+@media screen and (min-width:560px) {
     .navbar{
         flex-direction: row;
         justify-content: space-between;
@@ -92,5 +113,4 @@ such that no text wraps
         display: flex;
         justify-content: space-between;
     }
-
 }
